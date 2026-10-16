@@ -245,6 +245,7 @@ SELECT MAKETIME(17, 03, 02);
 -- PERIOD_ADD(연월, 개월 수), PERIOD_DIFF(연월1, 연월2)
 -- PERIOD_ADD: 열월에서 개월 수 이후의 연월을 구한다.(연월은 YYYY 또는 YYYYMM형식을 사용한다.)
 -- PERIOD_DIFF: 연월1 - 연월2의 개월 수를 구한다.
+
 SELECT
     PERIOD_ADD(202305, 6),
     PERIOD_DIFF(202305, 202311);
